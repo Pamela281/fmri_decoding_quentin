@@ -1,1 +1,4 @@
 /decoding/data/
+/venv
+*.iml
+.idea/fmri_decoding_quentin.iml
