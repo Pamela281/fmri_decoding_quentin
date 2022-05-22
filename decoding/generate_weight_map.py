@@ -137,7 +137,7 @@ def save_accs_to_txt(mean_score, scores, data_path):
 
 
 # define main params
-data_path = "C:/Users/pp262170/Documents/NF_BD/Pilot_study/Pilot_20210727/SESSION_1/"  # set path to data folder of current set
+data_path = "C:/Users/pp262170/Documents/Neurofeedback/Pilot_study/Pilot09/ses1/"  # set path to data folder of current set
 preprocessing = "sr"  # specify as 'r' (realigned), 'sr' (realigned + smoothed), or 'swr' (sr + normalization); if swr, set perform_decoding_cv(anova=True)
 cv_type = 'k_fold'  # cross-validation type: either 'k_fold' or 'block_out'
 n_folds = 10  # number of folds to perform in k-fold cross-validation; only used if cv_type == 'k_fold'
